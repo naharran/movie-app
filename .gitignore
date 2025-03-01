@@ -1,0 +1,60 @@
+# Global ignores (IDE, OS, and general)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# ─── Frontend (React) ───
+./frontend/node_modules/
+frontend/.cache/
+frontend/.env
+frontend/.env.local
+frontend/build/
+frontend/dist/
+frontend/public/
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/coverage/
+frontend/*.gz
+frontend/*.map
+
+# ─── Backend (FastAPI) ───
+server/__pycache__/
+server/*.py[cod]
+server/*.so
+server/*.log
+server/venv/
+server/.env
+server/.env.*
+server/Pipfile
+server/Pipfile.lock
+server/poetry.lock
+server/*.sqlite
+server/*.db
+server/uvicorn.log
+
+# ─── Test Coverage and Pytest ───
+server/.pytest_cache/
+server/.tox/
+server/htmlcov/
+server/.coverage
+server/coverage.xml
+
+# ─── Docker ───
+server/docker-compose.override.yml
+server/.dockerignore
+frontend/docker-compose.override.yml
+frontend/.dockerignore
