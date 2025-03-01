@@ -15,7 +15,7 @@ Thumbs.db
 *.sublime-workspace
 
 # ─── Frontend (React) ───
-./frontend/node_modules/
+frontend/node_modules/
 frontend/.cache/
 frontend/.env
 frontend/.env.local
