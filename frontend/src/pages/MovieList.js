@@ -18,7 +18,9 @@ const MovieList = () => {
 
     return <div>
         {movies?.map((mov, index) => {
-            return <h1 key={index}>{mov.title}</h1>
+            return  <div style={{border: "2px solid blue"}}>
+            <h1 style={{color: "red", fontWeight:"300"}} key={index}>{mov.title}</h1>
+            </div>
         })}
     </div>
 }
