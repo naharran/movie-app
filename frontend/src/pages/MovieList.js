@@ -18,7 +18,7 @@ const MovieList = () => {
 
     return <div>
         {movies?.map((mov, index) => {
-            return <h1 key={index}>{mov.title}</h1>
+            return <h3 key={index}>{mov.title}</h3>
         })}
     </div>
 }
